@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--画笔颜色-->
+    <attr name="strokeColor" format="color" />
+    <!--笔锋宽度-->
+    <attr name="strokeWidth" format="dimension" />
+    <!--保存的文件夹名称-->
+    <attr name="dir" format="string|reference" />
+    <declare-styleable name="SignatureView">
+        <attr name="strokeColor" />
+        <attr name="strokeWidth" />
+        <attr name="dir" />
+    </declare-styleable>
+</resources>
